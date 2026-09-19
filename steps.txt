@@ -1,0 +1,12 @@
+# runcommand
+django-admin startproject task_management_website
+
+# got to folder
+cd task_management_website
+
+# create apps
+python manage.py startapp tasks
+python manage.py startapp users
+python manage.py startapp accounts
+
+# install all apps in settings.py
